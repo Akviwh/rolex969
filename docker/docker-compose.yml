@@ -17,7 +17,7 @@ services:
         REACT_APP_TG_API_ID: ${TG_API_ID}
         REACT_APP_TG_API_HASH: ${TG_API_HASH}
     environment:
-      DATABASE_URL: postgres://postgres:${DB_PASSWORD}@db:5432/teledrive?connect_timeout=60&pool_timeout=60&socket_timeout=60
+      DATABASE_URL: postgresql://marvel.fan.gdrive:e0YPZQKdhrF7@ep-throbbing-pine-a5o2m39b-pooler.us-east-2.aws.neon.tech/moreover?sslmode=require
       REDIS_URI: redis://redis:6379
     env_file:
       - .env
